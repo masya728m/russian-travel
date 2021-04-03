@@ -2,7 +2,6 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
   line-height: 14px;
   /* identical to box height, or 140% */
 
@@ -15,4 +14,16 @@
   margin-top: 8px;
   display: inline-block;
   align-self: flex-start;
+}
+
+@media screen and (min-width: 425px) {
+  .lead__caption {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    font-size: calc(10 / 320 * 100vw);
+  }
 }
