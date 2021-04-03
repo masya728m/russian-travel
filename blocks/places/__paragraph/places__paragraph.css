@@ -1,21 +1,19 @@
-.place__website__link {
+.places__paragraph {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
+  line-height: 163%;
+  /* or 29px */
 
-  text-decoration-line: underline;
-  color: white;
-
-  opacity: 1;
-
-  transition: opacity 0.4s ease-in;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
 }
 
-.place__website__link:hover {
-  opacity: 0.8;
+.places__paragraph:last-of-type {
+  margin: 0;
 }
 
 @media screen and (min-width: 1280) {
