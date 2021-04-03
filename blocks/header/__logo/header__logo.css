@@ -1,15 +1,15 @@
 .header__logo {
-  height: auto;
+  height: 100%;
 }
 
 @media screen and (min-width: 425px) {
   .header__logo {
-    width: 176px;
+    max-width: 176px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header__logo {
-    width: calc(142 / 320 * 100vw);
+    width: calc(142 * calc(100vw / 320));
   }
 }

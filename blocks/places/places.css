@@ -5,13 +5,7 @@
   margin-bottom: 92px;
 }
 
-@media screen and (min-width: 1280px) {
-  .places {
-    width: calc(984 / 1280 * 100%);
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .places {
     width: calc(984 / 1280 * 100%);
   }
