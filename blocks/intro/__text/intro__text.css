@@ -11,3 +11,9 @@
   margin-top: 40px;
   margin-bottom: 33px;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    font-size: calc(16 / 288 * 100vw);
+  }
+}
