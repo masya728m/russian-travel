@@ -1,4 +1,6 @@
-.places_content_preview {
+.places__description {
+  /* object-fit: cover; */
+  /* width: 100%; */
 }
 
 @media screen and (min-width: 1280) {
