@@ -1,21 +1,17 @@
-.places__place__website__link {
+.place__website__url-heading {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
 
-  text-decoration-line: underline;
-  color: white;
-
-  opacity: 1;
-
-  transition: opacity 0.4s ease-in;
-}
-
-.places__place__website__link:hover {
-  opacity: 0.8;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+  margin-top: 106px;
 }
 
 @media screen and (min-width: 1280) {
