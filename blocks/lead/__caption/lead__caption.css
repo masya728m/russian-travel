@@ -10,7 +10,6 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
-  margin-top: 8px;
   display: inline-block;
   align-self: flex-start;
 }
@@ -19,12 +18,14 @@
   .lead__caption {
     line-height: 14px;
     font-size: 10px;
+    margin-top: 8px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__caption {
-    font-size: calc(10 / 320 * 100vw);
-    line-height: calc(14 / 406 * 100vw);
+    font-size: calc(10 * calc(100vw / 320));
+    line-height: calc(14 * calc(100vw / 320));
+    margin-top: calc(8 * calc(100vw / 320));
   }
 }
