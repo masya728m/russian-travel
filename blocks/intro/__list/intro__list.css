@@ -2,9 +2,24 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
   color: #ffffff;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 425px) {
+  .intro__list {
+    font-size: 12px;
+    line-height: 18px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    font-size: calc(12 * calc(100vw / 320));
+    line-height: calc(18 * calc(100vw / 320));
+    height: calc(90 * calc(100vw / 320));
+  }
 }

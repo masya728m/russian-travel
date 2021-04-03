@@ -18,7 +18,7 @@
   .intro {
     margin-top: 92px;
     margin-left: 48px;
-    width: calc(690 / 1024 * 100vw);
+    width: calc(690 * calc(100vw / 1024));
   }
 }
 
@@ -26,8 +26,8 @@
   .intro {
     margin-left: auto;
     margin-right: auto;
-    width: calc(720 / 768 * 100vw);
-    margin-top: 88px;
+    width: calc(720 * calc(100vw / 768));
+    margin-top: calc(88 * calc(100vw / 768));
   }
 }
 
@@ -35,7 +35,7 @@
   .intro {
     margin-left: auto;
     margin-right: auto;
-    width: calc(288 / 320 * 100vw);
-    margin-top: 64px;
+    width: calc(288 * calc(100vw / 320));
+    margin-top: calc(64 * calc(100vw / 320));
   }
 }
