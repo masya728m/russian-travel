@@ -2,23 +2,20 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
   color: #ffffff;
   text-decoration: none;
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 425px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
-@media screen and (min-width: 1024) and (max-width: 1280) {
-}
-
-@media screen and (min-width: 768) and (max-width: 1024) {
-}
-
-@media screen and (min-width: 425) and (max-width: 768) {
-}
-
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
+  .footer__link {
+    font-size: calc(24 * calc(100vw / 320));
+    line-height: calc(24 * calc(100vw / 320));
+  }
 }
