@@ -2,33 +2,29 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-
   text-decoration-line: underline;
   color: white;
-
   opacity: 1;
-
   transition: opacity 0.4s ease-in;
+  margin-bottom: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .website__link:hover {
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1280) {
-}
-
-@media screen and (min-width: 1024) and (max-width: 1280) {
-}
-
-@media screen and (min-width: 768) and (max-width: 1024) {
-}
-
-@media screen and (min-width: 425) and (max-width: 768) {
+@media screen and (min-width: 425) {
+  .website__link {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width: 425) {
+  .website__link {
+    font-size: calc(18 * calc(100vw / 320));
+    line-height: calc(22 * calc(100vw / 320));
+  }
 }

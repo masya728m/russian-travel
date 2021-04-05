@@ -2,29 +2,22 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height, or 100% */
-
   letter-spacing: 0.2em;
   color: #aaaaaa;
   margin: 0;
   padding: 0;
-  margin-bottom: 12px;
-  margin-top: 106px;
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 425px) {
+  .website__url-heading {
+    font-size: 12px;
+    height: 12px;
+  }
 }
 
-@media screen and (min-width: 1024) and (max-width: 1280) {
-}
-
-@media screen and (min-width: 768) and (max-width: 1024) {
-}
-
-@media screen and (min-width: 425) and (max-width: 768) {
-}
-
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
+  .website__url-heading {
+    font-size: calc(12 * calc(100vw / 320));
+    height: calc(12 * calc(100vw / 320));
+  }
 }

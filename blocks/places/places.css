@@ -1,30 +1,45 @@
 .places {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 92px;
-  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
   .places {
-    width: calc(984 / 1280 * 100%);
+    width: calc(984 * calc(100vw / 1280));
+    max-width: 984px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    gap: 80px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .places {
-    width: calc(720 / 1024 * 100%);
+    width: calc(982 * calc(100vw / 1024));
+    max-width: 982px;
+    margin-top: calc(92 * calc(100vw / 1024));
+    margin-bottom: calc(92 * calc(100vw / 1024));
+    gap: calc(80 * calc(100vw / 1024));
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places {
-    width: calc(720 / 1042 * 100%);
+    width: calc(720 * calc(100vw / 768));
+    max-width: 720px;
+    margin-top: calc(88 * calc(100vw / 768));
+    margin-bottom: calc(90 * calc(100vw / 768));
+    gap: calc(73 * calc(100vw / 768));
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
     width: 100%;
+    margin-top: calc(64 * calc(100vw / 320));
+    margin-bottom: calc(64 * calc(100vw / 320));
+    gap: calc(50 * calc(100vw / 320));
   }
 }

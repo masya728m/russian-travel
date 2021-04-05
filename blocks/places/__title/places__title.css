@@ -1,28 +1,44 @@
 .places__title {
-  width: 460px;
-  height: 152px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
   color: #ffffff;
   margin: 0;
   padding: 0;
-  margin-bottom: 48px;
 }
 
-@media screen and (min-width: 1280) {
+@media screen and (min-width: 1024px) {
+  .places__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
 }
 
-@media screen and (min-width: 1024) and (max-width: 1280) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places__title {
+    font-size: calc(72 * calc(100vw / 1024));
+    line-height: calc(76 * calc(100vw / 1024));
+  }
 }
 
-@media screen and (min-width: 768) and (max-width: 1024) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .places__title {
+    font-size: calc(42 * calc(100vw / 768));
+    line-height: calc(46 * calc(100vw / 768));
+  }
 }
 
-@media screen and (min-width: 425) and (max-width: 768) {
+@media screen and (min-width: 425px) {
+  .places__title {
+    object-fit: cover;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 425) {
+@media screen and (max-width: 425px) {
+  .places__title {
+    font-size: calc(32 * calc(100vw / 320));
+    line-height: calc(35 * calc(100vw / 320));
+    width: calc(288 * calc(100vw / 320));
+  }
 }
