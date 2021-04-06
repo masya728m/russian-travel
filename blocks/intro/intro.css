@@ -9,7 +9,7 @@
 @media screen and (min-width: 1024px) {
   .intro {
     margin-top: 92px;
-    margin-left: calc(148 / 1280 * 100%);
+    margin-left: calc(148 * calc(100vw / 1280));
     width: 690px;
   }
 }
