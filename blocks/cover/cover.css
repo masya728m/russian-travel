@@ -12,20 +12,25 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    width: calc(1184 / 1280 * 100%);
+    width: 1184px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover {
-    width: calc(1184 / 1280 * 100%);
+    width: calc(1184 * calc(100vw / 1280));
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    margin-bottom: 92px;
   }
 }
 
