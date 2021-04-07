@@ -6,19 +6,22 @@
   background-size: cover;
   position: relative;
   text-decoration: none;
-  overflow: hidden;
-  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
     width: 1184px;
+    height: 740px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover {
     width: calc(1184 * calc(100vw / 1280));
+    height: calc(740 * calc(100vw / 1280));
   }
 }
 
@@ -37,17 +40,20 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover {
     margin-bottom: calc(92 * calc(100vw / 1024));
+    height: calc(640 * calc(100vw / 1024));
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .cover {
     margin-bottom: calc(88 * calc(100vw / 768));
+    height: calc(480 * calc(100vw / 768));
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
     margin-bottom: calc(64 * calc(100vw / 320));
+    height: calc(200 * calc(100vw / 320));
   }
 }

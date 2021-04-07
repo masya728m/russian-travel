@@ -7,24 +7,11 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 1024px) {
-  .cover__text {
-    margin-top: 245px;
-    margin-bottom: 245px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .cover__text {
-    margin-top: calc(195 * calc(100vw / 1024));
-    margin-bottom: calc(195 * calc(100vw / 1024));
-  }
-}
-
 @media screen and (min-width: 768px) {
   .cover__text {
     gap: 32px;
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
   }
 }
 
@@ -32,8 +19,6 @@
   .cover__text {
     gap: calc(32 * calc(100vw / 768));
     width: calc(560 * calc(100vw / 768));
-    margin-top: calc(115 * calc(100vw / 768));
-    margin-bottom: calc(115 * calc(100vw / 768));
   }
 }
 
@@ -41,7 +26,5 @@
   .cover__text {
     gap: calc(16 * calc(100vw / 320));
     width: calc(288 * calc(100vw / 320));
-    margin-top: calc(33 * calc(100vw / 320));
-    margin-bottom: calc(33 * calc(100vw / 320));
   }
 }
