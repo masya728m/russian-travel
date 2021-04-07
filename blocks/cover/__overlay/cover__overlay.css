@@ -12,18 +12,3 @@
 .cover__overlay:hover {
   opacity: 0.8;
 }
-
-@media screen and (min-width: 1280) {
-}
-
-@media screen and (min-width: 1024) and (max-width: 1280) {
-}
-
-@media screen and (min-width: 768) and (max-width: 1024) {
-}
-
-@media screen and (min-width: 425) and (max-width: 768) {
-}
-
-@media screen and (max-width: 425) {
-}
