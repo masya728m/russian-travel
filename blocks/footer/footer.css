@@ -5,7 +5,8 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    width: 1184px;
+    max-width: 1184px;
+    width: 100%;
   }
 }
 
@@ -38,7 +39,7 @@
 
 @media screen and (max-width: 425px) {
   .footer {
-    width: calc(186 * calc(100vw / 320));
+    width: 100%;
     gap: calc(48 * calc(100vw / 320));
     margin-bottom: calc(24 * calc(100vw / 320));
     margin-left: calc(16 * calc(100vw / 320));
