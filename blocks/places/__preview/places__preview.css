@@ -29,15 +29,14 @@
 
 @media screen and (min-width: 425px) {
   .places__preview {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places__preview {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     width: calc(288 * calc(100vw / 320));
     gap: calc(32 * calc(100vw / 320));

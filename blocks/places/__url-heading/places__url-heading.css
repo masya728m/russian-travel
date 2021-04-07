@@ -1,4 +1,4 @@
-.website__url-heading {
+.places__url-heading {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.2em;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (min-width: 425px) {
-  .website__url-heading {
+  .places__url-heading {
     font-size: 12px;
     height: 12px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .website__url-heading {
+  .places__url-heading {
     font-size: calc(12 * calc(100vw / 320));
     height: calc(12 * calc(100vw / 320));
   }
