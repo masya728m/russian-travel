@@ -1,0 +1,14 @@
+.footer__navigation {
+  display: flex;
+  flex-direction: row;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation {
+    flex-direction: column;
+  }
+}

@@ -6,12 +6,20 @@
   font-weight: normal;
   text-align: left;
   color: #ffffff;
+  display: block;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 16px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer__copyright {
+    font-size: calc(14 * calc(100vw / 768));
+    line-height: calc(16 * calc(100vw / 768));
   }
 }
 
