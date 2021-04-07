@@ -68,3 +68,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__links/footer__links.css);
+
+body {
+  background: #2a2c2f;
+}

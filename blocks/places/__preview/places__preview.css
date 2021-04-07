@@ -38,7 +38,8 @@
   .places__preview {
     display: flex;
     flex-direction: column;
-    width: calc(288 * calc(100vw / 320));
+    width: 100%;
+    max-width: calc(288 * calc(100vw / 320));
     gap: calc(32 * calc(100vw / 320));
   }
 }

@@ -10,13 +10,13 @@
 @media screen and (min-width: 425px) {
   .places__url-heading {
     font-size: 12px;
-    height: 12px;
+    margin-bottom: 12px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places__url-heading {
     font-size: calc(12 * calc(100vw / 320));
-    height: calc(12 * calc(100vw / 320));
+    margin-bottom: calc(12 * calc(100vw / 320));
   }
 }

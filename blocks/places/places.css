@@ -7,7 +7,8 @@
 
 @media screen and (min-width: 1024px) {
   .places {
-    width: calc(984 * calc(100vw / 1280));
+    width: 100%;
+    max-width: calc(984 * calc(100vw / 1280));
     max-width: 984px;
     margin-top: 92px;
     margin-bottom: 92px;
@@ -17,7 +18,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .places {
-    width: calc(982 * calc(100vw / 1024));
+    width: 100%;
+    max-width: calc(982 * calc(100vw / 1024));
     max-width: 982px;
     margin-top: calc(92 * calc(100vw / 1024));
     margin-bottom: calc(92 * calc(100vw / 1024));
@@ -27,7 +29,8 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places {
-    width: calc(720 * calc(100vw / 768));
+    width: 100%;
+    max-width: calc(720 * calc(100vw / 768));
     max-width: 720px;
     margin-top: calc(88 * calc(100vw / 768));
     margin-bottom: calc(90 * calc(100vw / 768));

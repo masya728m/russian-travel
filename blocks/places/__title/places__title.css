@@ -9,13 +9,14 @@
 
 @media screen and (min-width: 1280px) {
   .places__title {
-    width: 460px;
+    max-width: 460px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .places__title {
-    width: calc(460 * calc(100vw / 1280));
+    width: 100%;
+    max-width: calc(460 * calc(100vw / 1280));
   }
 }
 
@@ -30,7 +31,8 @@
   .places__title {
     font-size: calc(72 * calc(100vw / 1024));
     line-height: calc(76 * calc(100vw / 1024));
-    width: calc(440 * calc(100vw / 1024));
+    width: 100%;
+    max-width: calc(440 * calc(100vw / 1024));
   }
 }
 
@@ -38,7 +40,8 @@
   .places__title {
     font-size: calc(42 * calc(100vw / 768));
     line-height: calc(46 * calc(100vw / 768));
-    width: calc(340 * calc(100vw / 768));
+    width: 100%;
+    max-width: calc(340 * calc(100vw / 768));
   }
 }
 
@@ -46,6 +49,7 @@
   .places__title {
     font-size: calc(32 * calc(100vw / 320));
     line-height: calc(35 * calc(100vw / 320));
-    width: calc(288 * calc(100vw / 320));
+    width: 100%;
+    max-width: calc(288 * calc(100vw / 320));
   }
 }

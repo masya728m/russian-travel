@@ -8,13 +8,14 @@
   font-weight: 900;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-    width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -22,7 +23,7 @@
   .lead__title {
     font-size: calc(98 * calc(100vw / 768));
     line-height: calc(100 * calc(100vw / 768));
-    width: calc(720 * calc(100vw / 768));
+    max-width: calc(720 * calc(100vw / 768));
   }
 }
 
@@ -30,6 +31,6 @@
   .lead__title {
     font-size: calc(40 * calc(100vw / 320));
     line-height: calc(44 * calc(100vw / 320));
-    width: calc(288 * calc(100vw / 320));
+    max-width: calc(288 * calc(100vw / 320));
   }
 }

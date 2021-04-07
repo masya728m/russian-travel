@@ -1,8 +1,6 @@
 .page {
-  background: #2a2c2f;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
   max-width: 1280px;
   font-family: "Inter", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -11,4 +9,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  min-width: 320px;
 }

@@ -4,7 +4,6 @@
   justify-content: space-between;
   margin-bottom: 0;
   object-fit: cover;
-  height: 46px;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,11 +15,5 @@
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places__website {
     align-self: flex-start;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .places__website {
-    height: calc(46 * calc(100vw / 320));
   }
 }

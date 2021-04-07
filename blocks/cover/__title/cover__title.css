@@ -27,7 +27,8 @@
   .cover__title {
     font-size: calc(72 * calc(100vw / 768));
     line-height: calc(76 * calc(100vw / 768));
-    width: calc(560 * calc(100vw / 768));
+    width: 100%;
+    max-width: calc(560 * calc(100vw / 768));
   }
 }
 

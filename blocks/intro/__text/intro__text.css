@@ -5,6 +5,25 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .intro__text {
+    max-width: calc(690 * calc(100vw / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 425px) {
