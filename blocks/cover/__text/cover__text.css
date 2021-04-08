@@ -1,24 +1,23 @@
 .cover__text {
-  margin: 0 auto;
+  margin: auto auto;
   padding: 0;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  background-size: cover;
+  background-size: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .cover__text {
     gap: 32px;
     max-width: 560px;
-    width: 100%;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .cover__text {
     gap: calc(32 * calc(100vw / 768));
-    width: 100%;
     max-width: calc(560 * calc(100vw / 768));
   }
 }
@@ -26,7 +25,6 @@
 @media screen and (max-width: 425px) {
   .cover__text {
     gap: calc(16 * calc(100vw / 320));
-    width: 100%;
     max-width: calc(288 * calc(100vw / 320));
   }
 }

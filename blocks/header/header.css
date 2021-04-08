@@ -3,6 +3,7 @@
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 425px) {
@@ -19,30 +20,25 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .header {
-    width: 100%;
     max-width: calc(1184 * calc(100vw / 1280));
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .header {
-    width: 100%;
     max-width: calc(928 * calc(100vw / 1024));
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .header {
-    width: 100%;
     max-width: calc(720 * calc(100vw / 768));
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    width: 100%;
     max-width: calc(288 * calc(100vw / 320));
-    height: calc(42 * calc(100vw / 320));
     margin-top: calc(16 * calc(100vw / 320));
   }
 }

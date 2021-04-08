@@ -1,5 +1,7 @@
 .places__description {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 1280px) {
@@ -28,17 +30,13 @@
 
 @media screen and (min-width: 425px) {
   .places__description {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places__description {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: calc(32 * calc(100vw / 320));
   }
 }

@@ -3,19 +3,18 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 425px) {
   .places__text {
     object-fit: cover;
-    width: 100%;
     gap: 25px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places__text {
-    width: 100%;
     max-width: calc(288 * calc(100vw / 320));
     gap: calc(25 * calc(100vw / 320));
   }

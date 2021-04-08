@@ -3,11 +3,11 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
   .places {
-    width: 100%;
     max-width: calc(984 * calc(100vw / 1280));
     max-width: 984px;
     margin-top: 92px;
@@ -18,7 +18,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .places {
-    width: 100%;
     max-width: calc(982 * calc(100vw / 1024));
     max-width: 982px;
     margin-top: calc(92 * calc(100vw / 1024));
@@ -29,7 +28,6 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places {
-    width: 100%;
     max-width: calc(720 * calc(100vw / 768));
     max-width: 720px;
     margin-top: calc(88 * calc(100vw / 768));
@@ -40,7 +38,6 @@
 
 @media screen and (max-width: 425px) {
   .places {
-    width: 100%;
     margin-top: calc(64 * calc(100vw / 320));
     margin-bottom: calc(64 * calc(100vw / 320));
     gap: calc(50 * calc(100vw / 320));

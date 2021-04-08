@@ -1,6 +1,7 @@
 .places__preview {
   width: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
 @media screen and (min-width: 1280px) {
@@ -29,16 +30,13 @@
 
 @media screen and (min-width: 425px) {
   .places__preview {
-    display: flex;
     flex-direction: row;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places__preview {
-    display: flex;
     flex-direction: column;
-    width: 100%;
     max-width: calc(288 * calc(100vw / 320));
     gap: calc(32 * calc(100vw / 320));
   }
