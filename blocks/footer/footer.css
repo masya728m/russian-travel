@@ -1,6 +1,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -33,8 +36,6 @@
 
 @media screen and (min-width: 425px) {
   .footer {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 24px;
     flex-direction: row;
   }
@@ -42,10 +43,9 @@
 
 @media screen and (max-width: 425px) {
   .footer {
-    width: 100%;
+    max-width: calc(288 * calc(100vw / 320));
     gap: calc(48 * calc(100vw / 320));
     margin-bottom: calc(24 * calc(100vw / 320));
-    margin-left: calc(16 * calc(100vw / 320));
     flex-direction: column;
   }
 }
