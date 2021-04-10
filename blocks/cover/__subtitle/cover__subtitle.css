@@ -9,6 +9,7 @@
   z-index: 2;
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,8 +21,14 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .cover__subtitle {
-    font-size: calc(18 * calc(100vw / 768));
-    line-height: calc(22 * calc(100vw / 768));
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cover__subtitle {
+    max-width: 360px;
   }
 }
 
@@ -29,5 +36,6 @@
   .cover__subtitle {
     font-size: calc(14 * calc(100vw / 320));
     line-height: calc(16 * calc(100vw / 320));
+    max-width: calc(288 * calc(100vw / 320));
   }
 }

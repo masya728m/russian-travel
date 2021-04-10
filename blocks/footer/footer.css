@@ -4,6 +4,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1280px) {

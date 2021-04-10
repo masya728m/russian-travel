@@ -18,8 +18,8 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .footer__copyright {
-    font-size: calc(14 * calc(100vw / 768));
-    line-height: calc(16 * calc(100vw / 768));
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 

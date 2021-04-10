@@ -8,6 +8,8 @@
   justify-content: space-evenly;
   background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1280px) {
