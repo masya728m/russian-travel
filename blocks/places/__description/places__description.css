@@ -28,7 +28,13 @@
   }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 768px) {
+  .places__description {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .places__description {
     flex-direction: row;
   }
@@ -36,7 +42,6 @@
 
 @media screen and (max-width: 425px) {
   .places__description {
-    flex-direction: column;
     gap: calc(32 * calc(100vw / 320));
   }
 }

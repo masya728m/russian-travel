@@ -6,7 +6,6 @@
   padding: 0;
   display: inline-block;
   width: 100%;
-  overflow-wrap: break-word;
 }
 
 @media screen and (min-width: 1280px) {
@@ -41,7 +40,7 @@
   .places__title {
     font-size: 42px;
     line-height: 46px;
-    max-width: calc(340 * calc(100vw / 768));
+    max-width: 340px;
   }
 }
 

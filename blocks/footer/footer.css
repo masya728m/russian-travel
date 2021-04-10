@@ -34,6 +34,18 @@
 @media screen and (min-width: 425px) {
   .footer {
     margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
     flex-direction: row;
   }
 }
@@ -43,6 +55,5 @@
     max-width: calc(288 * calc(100vw / 320));
     gap: calc(48 * calc(100vw / 320));
     margin-bottom: calc(24 * calc(100vw / 320));
-    flex-direction: column;
   }
 }
